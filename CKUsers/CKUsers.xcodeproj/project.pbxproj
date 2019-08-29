@@ -14,6 +14,8 @@
 		6307F22D2316107D009D0BB3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6307F22C2316107D009D0BB3 /* CloudKit.framework */; };
 		6307F234231612AE009D0BB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307F233231612AE009D0BB3 /* User.swift */; };
 		6307F2362316177B009D0BB3 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307F2352316177B009D0BB3 /* UserController.swift */; };
+		6307F23F2317538B009D0BB3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307F23E2317538B009D0BB3 /* SignUpViewController.swift */; };
+		6307F24123175513009D0BB3 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307F24023175513009D0BB3 /* Notification.Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		6307F22C2316107D009D0BB3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6307F233231612AE009D0BB3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6307F2352316177B009D0BB3 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		6307F23E2317538B009D0BB3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6307F24023175513009D0BB3 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		6307F22E231610A6009D0BB3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6307F24023175513009D0BB3 /* Notification.Name.swift */,
 				6307F21823161050009D0BB3 /* AppDelegate.swift */,
 				6307F21F23161051009D0BB3 /* Assets.xcassets */,
 				6307F22123161051009D0BB3 /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 		6307F231231610BC009D0BB3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6307F23E2317538B009D0BB3 /* SignUpViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			files = (
 				6307F2362316177B009D0BB3 /* UserController.swift in Sources */,
 				6307F234231612AE009D0BB3 /* User.swift in Sources */,
+				6307F24123175513009D0BB3 /* Notification.Name.swift in Sources */,
+				6307F23F2317538B009D0BB3 /* SignUpViewController.swift in Sources */,
 				6307F21923161050009D0BB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

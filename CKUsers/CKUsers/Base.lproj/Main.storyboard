@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="jof-qk-xfR">
             <objects>
-                <viewController id="I3F-UU-3qs" sceneMemberID="viewController">
+                <viewController id="I3F-UU-3qs" customClass="SignUpViewController" customModule="CKUsers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3nV-En-Lif">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,8 +46,12 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbX-KE-JVC">
                                 <rect key="frame" x="134" y="738" width="146" height="64"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpButtonTapped:" destination="I3F-UU-3qs" eventType="touchUpInside" id="1xH-dF-yVh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,6 +64,9 @@
                         <viewLayoutGuide key="safeArea" id="mAk-1X-Zmy"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="t12-dc-bXg" id="jNa-wo-EEO"/>
+                        <outlet property="petNameTextField" destination="Tlt-hP-PbG" id="a9I-5h-LsU"/>
+                        <outlet property="usernameTextField" destination="djp-Is-A5W" id="rr8-W7-3eq"/>
                         <segue destination="iKs-M8-Qsk" kind="presentation" identifier="ToWlcomeVC" id="WrV-Ll-hYy"/>
                     </connections>
                 </viewController>
