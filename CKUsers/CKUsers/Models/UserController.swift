@@ -16,7 +16,10 @@ class UserController {
     
     var currentUser: User? {
         didSet {
-            NotificationCenter.default.post(name: .userCreated, object: nil)
+            DispatchQueue.main.async {
+                NotificationCenter.default.post(name: .userCreated, object: nil)
+                
+            }
         }
     }
     let database = CKContainer.default().publicCloudDatabase

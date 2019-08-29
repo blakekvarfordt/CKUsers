@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="528.98550724637687" y="151.33928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="5Te-jx-vNv">
             <objects>
-                <viewController id="iKs-M8-Qsk" sceneMemberID="viewController">
+                <viewController id="iKs-M8-Qsk" customClass="WelcomeViewController" customModule="CKUsers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2dG-ev-6c4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fJa-SG-m4V"/>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="Gez-oh-ntR" id="Kmc-YL-32C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqt-h2-4Z6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
